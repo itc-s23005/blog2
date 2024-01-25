@@ -19,14 +19,14 @@
 }
 
 /* 横並び(中央揃え) */
-.sideByCenter {
+.sideBySideCenter {
   composes: sideBySide;
   align-items: center;
   text-align: center;
 }
 
 @media (min-width: 768px) {
-  .sideByCenter {
+  .sideBySideCenter {
     text-align: left;
   }
 }
