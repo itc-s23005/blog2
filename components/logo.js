@@ -3,8 +3,8 @@ import styles from 'styles/logo.module.css'
 
 const Logo = ({ boxOn = false }) => {
   return (
-    <Link href='/'>
-      <span className={boxOn ? styles.box : styles.basic}>CUBE</span>
+    <Link href='/' className={boxOn ? styles.box : styles.basic}>
+      CUBE
     </Link>
   )
 }
