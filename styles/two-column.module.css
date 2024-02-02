@@ -7,13 +7,13 @@
 @media (min-width: 768px) {
   .main {
     width: 768px;
-    position: sticky;
-    top: 40px;
-    align-self: flex-start;
 }
 
   .sidebar {
      width: 240px;
+     position: sticky;
+     top: 40px;
+     align-self: flex-start;
   }
 
   .sideber * {
