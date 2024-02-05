@@ -1,5 +1,5 @@
 import { parseISO, format } from 'date-fns'
-import ja from 'date-fns/local/ja'
+import ja from 'date-fns/locale/ja'
 
 const ConvertDate = ({ dateISO }) => {
   return (
